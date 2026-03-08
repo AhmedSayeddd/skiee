@@ -1,7 +1,7 @@
 class AppImages {
   static String imgSkieeLogo = 'assets/images/Icon.svg';
   static String Email = 'assets/images/Container.svg';
-  static String Password = 'assets/images/Container1.svg';
+  static String pass = 'assets/images/pass.svg';
   static String Google = 'assets/images/SVG.svg';
   static String Facebook = 'assets/images/Vector.svg';
   static String eye_visualisation = 'assets/images/Icon (1).svg';

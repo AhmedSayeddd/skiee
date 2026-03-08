@@ -4,26 +4,26 @@ import 'package:skiee/core/app_colors.dart';
 
 class AppStyle {
   static TextStyle titleStyle = GoogleFonts.inter(
-    fontSize: 36,
+    fontSize: 20,
     fontWeight: FontWeight.bold,
-    color: const Color(AppColors.black),
+    color: AppColors.primary,
   );
 
-  static  TextStyle subtitleStyle = GoogleFonts.inter(
+  static TextStyle subtitleStyle = GoogleFonts.inter(
     fontSize: 16,
     fontWeight: FontWeight.w500,
-    color: const Color(AppColors.hintText),
+    color: AppColors.textHint,
   );
 
-   static TextStyle buttonTextStyle = GoogleFonts.inter(
+  static TextStyle buttonTextStyle = GoogleFonts.inter(
     fontSize: 16,
     fontWeight: FontWeight.bold,
-    color: const Color(AppColors.white),
+    color: AppColors.white,
   );
 
   static TextStyle loginwith = GoogleFonts.inter(
     fontSize: 14,
     fontWeight: FontWeight.bold,
-    color: const Color(AppColors.black),
+    color: AppColors.white,
   );
 }
