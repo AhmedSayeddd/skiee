@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:skiee/auth/pages/login_screen.dart';
 import 'package:skiee/core/app_colors.dart';
 import 'package:skiee/core/app_images.dart';
 import 'package:skiee/core/app_style.dart';
@@ -409,8 +410,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     ),
                     child: ElevatedButton(
                       onPressed: () {
-                        // TODO: add sign up logic
-                        // maybe check if passwords match first
+                        Navigator.pushNamed(context, LoginScreen.routeName);
                         if (_passwordController.text !=
                             _confirmPasswordController.text) {
                           ScaffoldMessenger.of(context).showSnackBar(

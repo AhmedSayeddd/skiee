@@ -22,4 +22,12 @@ class AppImages {
   static String Airbus = 'assets/images/Icon (5).svg';
   static String typeOfClass = 'assets/images/Icon (6).svg';
   static String BritishAir = 'assets/images/Container (5).svg';
+  static String Airphoto = 'assets/images/paris.png';
+  static String Airphoto2 = 'assets/images/london.png';
+  static String Calender = 'assets/images/Container (7).svg';
+  static String ARROW = 'assets/images/arr.svg';
+  static String bri = 'assets/images/British Airways Logo.svg';
+  static String profilepic = 'assets/images/profiles.svg';
+
+  
 }

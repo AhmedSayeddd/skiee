@@ -4,6 +4,7 @@ import 'package:skiee/auth/pages/register_screen.dart';
 import 'package:skiee/core/app_colors.dart';
 import 'package:skiee/core/app_images.dart';
 import 'package:skiee/core/app_style.dart';
+import 'package:skiee/widget/homescreem.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -214,7 +215,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       ],
                     ),
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, HomeScreen.routeName);
+                      },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.transparent,
                         shadowColor: Colors.transparent,
